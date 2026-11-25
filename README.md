@@ -5,9 +5,9 @@
 For the past 7+ years I've built the backends that production floors run on. Right now I own the backend of a
 production & card-printing platform that handles **~50,000 orders a day** for 50 internal users.
 
-- ⚡ Cut a core production report from **5 minutes to 0.5 seconds** with query rewrites, indexing, and Redis caching
-- 🏭 Turn manual production steps into automated workflows
-- 🔧 Keep high-traffic systems stable: live debugging, fixes, and GitLab CI/CD deploys
+- Cut a core production report from **5 minutes to 0.5 seconds** with query rewrites, indexing, and Redis caching
+- Turn manual production steps into automated workflows
+- Keep high-traffic systems stable: live debugging, fixes, and GitLab CI/CD deploys
 
 #### Tech I use daily
 
