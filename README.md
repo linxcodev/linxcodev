@@ -5,7 +5,7 @@
 For the past 7+ years I've built the backends that production floors run on. Right now I own the backend of a
 production & card-printing platform that handles **~50,000 orders a day** for 50 internal users.
 
-- Cut a core production report from **5 minutes to 0.5 seconds** with query rewrites, indexing, and Redis caching
+- Cut a core production report from **5 minutes to 0.5 seconds** with query rewrites, indexing, and Redis caching ([reproduced on 1M orders](https://github.com/linxcodev/nestjs-production-api#results))
 - Turn manual production steps into automated workflows
 - Keep high-traffic systems stable: live debugging, fixes, and GitLab CI/CD deploys
 
@@ -25,6 +25,7 @@ production & card-printing platform that handles **~50,000 orders a day** for 50
 
 | Project | What it is |
 | --- | --- |
+| [**nestjs-production-api**](https://github.com/linxcodev/nestjs-production-api) | NestJS orders API on 1M orders: keyset pagination, EXPLAIN ANALYZE before/after, Redis caching. Production report from 47 s to 0.2 s (2 ms cached) |
 | [**joy**](https://github.com/linxcodev/joy) | Terminal AI coding agent in Python — streaming LLM with sandboxed read/write/edit tools and atomic, diff-returning edits |
 | [**whatsapp-api**](https://github.com/linxcodev/whatsapp-api) | WhatsApp messaging API on Node.js + Puppeteer, single and multi-device |
 
